@@ -1,0 +1,29 @@
+button {
+    background-color: #333333;
+    /*flex: 1;*/
+    display: flex;
+    /*height: Math.floor(buttonWidth - 10);*/
+    height: 60px;
+    width: 60px;
+    /*alignItems: "center",*/
+    align-items: center;
+    /*justifyContent: "center",*/
+    justify-content: space-around;
+    /*borderRadius:Math.floor(buttonWidth);*/
+    border-radius: 30px;
+    margin:15px;
+    color:white;
+    font-size: 20px;
+    
+ }
+
+ .botao:hover{
+    background-color: blueviolet;
+    color: white;
+    transform: scale(1.2);
+ }
+
+ h1 {
+    color: blueviolet;
+    font-size: 2em;
+  }
